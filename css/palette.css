@@ -1,0 +1,87 @@
+/* Coolors Exported Palette - coolors.co/cc9966-ffffcc-ffcc99-cc6666-934738 */
+/* HSL */
+/* RGB */
+/* Stilimi per pjesen e trupit ne varesi te madhesise ne pixel */
+body {
+  background-color: #ffcc99; }
+
+@media screen and (min-width: 576px) {
+  body {
+    background-color: #ffcc99; } }
+
+@media screen and (min-width: 768px) {
+  body {
+    background-color: #ffcc99; } }
+
+@media screen and (min-width: 992px) {
+  body {
+    background-color: #ffcc99; } }
+
+@media screen and (min-width: 1200px) {
+  body {
+    background-color: #ffcc99; } }
+
+/* Stilimi i pjeses se pare me container*/
+.klasa1 {
+  background-color: #cc6666; }
+
+/* Stilimi i cdo rreshti me lartesi sandarte */
+.height {
+  min-height: 100vh; }
+
+.klasa2 {
+  color: #ffffcc;
+  font-family: "Monoton"; }
+
+p {
+  color: black; }
+
+.btn {
+  background-color: #ffffcc; }
+
+/* Stilimi i pjeses se dyte me container-fluid */
+.container-fluid {
+  background-color: #934738;
+  color: black; }
+
+/* Stilimi i pjeses se trete, seksioni i pare*/
+#seksion {
+  background-color: #ffffcc;
+  color: #934738; }
+  #seksion h1 {
+    color: #cc9966;
+    font-family: "Staatliches"; }
+  #seksion .btn {
+    background-color: #cc6666; }
+
+/* Stilimi i pjeses se katert, seksioni i dyte*/
+#seksion2 {
+  background-color: #cc9966; }
+  #seksion2 h1 {
+    color: #ffffcc;
+    font-family: "Economica"; }
+  #seksion2 p {
+    color: black; }
+
+/* Stilimi i pjeses se peste, seksioni i trete */
+.seksion3 .grid1 {
+  background-color: #cc6666; }
+  .seksion3 .grid1 .row1 {
+    min-height: 50px; }
+
+.fab {
+  color: #934738; }
+
+/* Stilimi i pjeses se gjashte , perdorimi i grid*/
+.seksion4 .grid2 {
+  background-color: #934738; }
+
+.seksion4 .klik {
+  color: #ffffcc;
+  text-decoration: none; }
+  .seksion4 .klik:hover {
+    color: #cc6666;
+    text-decoration: none; }
+
+.seksion5 .grid3 {
+  background-color: #ffffcc; }

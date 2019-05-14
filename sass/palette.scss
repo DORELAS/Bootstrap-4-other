@@ -1,0 +1,168 @@
+/* Coolors Exported Palette - coolors.co/cc9966-ffffcc-ffcc99-cc6666-934738 */
+
+/* HSL */
+$color1: hsla(30%, 50%, 60%, 1);
+$color2: hsla(60%, 100%, 90%, 1);
+$color3: hsla(30%, 100%, 80%, 1);
+$color4: hsla(0%, 50%, 60%, 1);
+$color5: hsla(10%, 45%, 40%, 1);
+
+/* RGB */
+$color1: rgba(204, 153, 102, 1);
+$color2: rgba(255, 255, 204, 1);
+$color3: rgba(255, 204, 153, 1);
+$color4: rgba(204, 102, 102, 1);
+$color5: rgba(147, 71, 56, 1);
+
+ /* Stilimi per pjesen e trupit ne varesi te madhesise ne pixel */
+
+          body {
+              background-color: $color3;
+          }
+          
+          @media screen and (min-width:576px){
+              body {
+                  background-color: $color3;
+              }
+          }
+          
+             @media screen and (min-width:768px){
+              body {
+                  background-color: $color3;
+              }
+          }
+          
+             @media screen and (min-width:992px){
+              body {
+                  background-color: $color3;
+              }
+          }
+          
+             @media screen and (min-width:1200px){
+              body {
+                  background-color: $color3;
+              }
+          }
+/* Stilimi i pjeses se pare me container*/
+.klasa1 {
+    background-color: $color4;
+}
+
+/* Stilimi i cdo rreshti me lartesi sandarte */
+.height {
+    min-height: 100vh;
+}
+
+
+
+.klasa2 {
+    color: $color2;
+    font-family: "Monoton";
+}
+
+p{
+    color:black;
+}
+
+.btn { 
+background-color: $color2;
+}
+
+/* Stilimi i pjeses se dyte me container-fluid */
+
+.container-fluid {
+    background-color: $color5;
+    color: black;
+}
+
+/* Stilimi i pjeses se trete, seksioni i pare*/
+
+#seksion {
+    background-color: $color2;
+    color: $color5;
+    
+    
+    h1{
+        color: $color1;
+        font-family: "Staatliches";
+    }
+    
+    .btn {
+         background-color: $color4;
+    }
+}
+
+/* Stilimi i pjeses se katert, seksioni i dyte*/
+
+#seksion2 {
+    background-color: $color1;
+    
+    h1 {
+        color: $color2;
+        font-family: "Economica";
+    }
+    p {
+        color: black;
+    }
+}
+
+/* Stilimi i pjeses se peste, seksioni i trete */
+
+.seksion3 {
+    
+    .grid1{
+        
+    background-color: $color4;
+        
+    .row1 {
+        
+        min-height: 50px;
+    }
+}
+}
+ 
+.fab {
+    color: $color5;
+}
+
+/* Stilimi i pjeses se gjashte , perdorimi i grid*/
+
+
+.seksion4 {
+    
+    .grid2 {
+        background-color: $color5;
+
+    }
+
+    .klik {
+        color: $color2;
+        text-decoration: none;
+        
+        &:hover {
+            color: $color4;
+          text-decoration: none;
+        
+        }
+    }
+   
+}
+
+.seksion5 {
+    
+    .grid3{
+        
+    background-color: $color2;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
